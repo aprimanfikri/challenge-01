@@ -32,6 +32,11 @@
   background-color: #5cb85f;
 }
 
+.btn-hijau:hover {
+  background-color: #5cb85f;
+  color: white;
+}
+
 .biru-logo {
   background-color: #0d28a6;
   border-radius: 0;
