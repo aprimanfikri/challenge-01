@@ -72,11 +72,7 @@
 
 .bulat {
   background: #cfd4ed;
-}
-
-.siu {
-  display: flex;
-  justify-content: space-between;
+  margin-right: 8px;
 }
 
 .img-services {
@@ -160,7 +156,12 @@
   border-radius: 50%;
 }
 
-.img-text h2,
+.img-text h2 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+}
+
 .img-text p {
   font-family: Helvetica;
   font-style: normal;
@@ -233,6 +234,13 @@
 
 .text-footer {
   padding-left: 80px;
+  display: flex;
+  flex-direction: column;
+  line-height: 32px;
+}
+.text-footer a {
+  text-decoration: none;
+  color: black;
 }
 
 .copy-text {
@@ -294,7 +302,10 @@
     right: auto;
   }
 
-  .img-text h2,
+  .img-text h2 {
+    font-weight: bold;
+  }
+
   .img-text p {
     padding: 0 20px;
   }
