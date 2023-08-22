@@ -472,3 +472,55 @@
     padding: 8px;
   }
 }
+
+@media (min-width: 1200px) {
+  .jumbotron {
+    padding-top: 140px;
+    height: 600px;
+  }
+
+  .kolom-hero {
+    padding: 40px 0px 0px 140px;
+  }
+
+  .hero {
+    font-size: 36px;
+    width: 568px;
+    height: 108px;
+  }
+
+  .sub-hero {
+    width: 468px;
+    height: 60px;
+    margin-bottom: 32px;
+  }
+
+  .img-mobil {
+    height: 320px;
+    width: auto;
+    position: absolute;
+    margin-left: -15px;
+    max-width: none;
+  }
+
+  .container-testimonial {
+    padding: 100px 40px 0px;
+    margin-bottom: 120px;
+  }
+
+  .single-box {
+    margin-bottom: 30px;
+  }
+
+  .img-text {
+    padding-left: 130px;
+  }
+
+  .text-footer {
+    padding-left: 80px;
+  }
+
+  .copy-text {
+    padding-left: 60px;
+  }
+}
