@@ -332,7 +332,7 @@
 @media (min-width: 575px) and (max-width: 991px) {
   .jumbotron {
     padding-top: 100px;
-    height: 400px;
+    height: 460px;
   }
 
   .kolom-hero {
@@ -356,6 +356,7 @@
   }
 
   .img-mobil {
+    margin-top: 140px;
     height: auto;
     width: 100%;
     position: static;
@@ -421,6 +422,7 @@
   }
 
   .img-mobil {
+    margin-top: 30px;
     height: 350px;
     width: auto;
     position: absolute;
@@ -476,7 +478,7 @@
 @media (min-width: 1200px) {
   .jumbotron {
     padding-top: 140px;
-    height: 600px;
+    height: 460px;
   }
 
   .kolom-hero {
