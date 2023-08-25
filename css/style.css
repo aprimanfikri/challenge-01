@@ -496,11 +496,11 @@
   }
 
   .img-mobil {
-    height: 320px;
-    width: auto;
+    max-width: 762px;
+    width: 100%;
     position: absolute;
     margin-left: -15px;
-    max-width: none;
+    height: 320px;
   }
 
   .container-testimonial {
